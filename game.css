@@ -1,0 +1,130 @@
+
+h1{
+    text-align:center;
+    font-size:60px;
+    color:black;
+    padding:20px;
+}
+p{
+    text-align:center;
+    padding:20px;
+    color:darkslategrey; 
+    font-style:italic; 
+}
+.Playerscore > div{
+    display:flex;
+    justify-content:center;
+}
+
+.Playerscore{
+    display:flex;
+    flex-flow:column;
+    padding:70px;    
+}
+.userscore{
+    font-size:20px;
+    align-items:center;
+}
+
+.user{
+    padding:10px; 
+    font-family:'Roboto';
+    font-size:30px;
+    font-weight:900;  
+}
+
+.Computer-score > div{
+    display:flex;
+    justify-content:center;
+}
+
+.Computer-score{
+    display:flex;
+    flex-flow:column;
+    padding:70px;    
+}
+.compscore{
+    font-size:20px;
+    align-items:center;
+}
+
+.comp{
+    padding:10px; 
+    font-family:'Roboto';
+    font-size:30px;
+    font-weight:900;  
+}
+.space{
+    display:flex;
+    width:70%;
+}
+.scoreboard{
+    display:flex;
+    justify-content:center;
+}
+body{
+    background-color:#354d6965;
+}
+.hands{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+    width:80%;
+    background-color:whitesmoke;
+}
+.hands > div{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.handpics{
+    width:45%;
+    height:45%; 
+}
+.handpic2{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width:45%;
+    height:45%;
+}
+form{
+    padding:30px;
+    font-size:50px;
+    text-align:center;
+    font-weight: 800;
+    font-family:arial;
+    
+}
+.contents{
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+}
+.choices{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:30px;
+}
+.choices > div{
+    display:flex;
+    padding:15px;
+}
+button:hover{
+    cursor:pointer;
+    background:lightgray;
+}
+button{
+    padding:10px;
+    width:100px;
+    border-radius:50px;
+    text-align:center;
+    background-color:whitesmoke;
+    border-color:grey;
+    color:grey;
+    font-weight:800;
+    cursor:pointer;
+    position:relative;
+    transition: all 0.3 ease;
+}

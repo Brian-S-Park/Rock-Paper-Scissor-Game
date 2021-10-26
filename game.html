@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="game.css">
+<head>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <h1>Rock Paper Scissors!</h1>
+  <div class="scoreboard">
+
+      <div class="Playerscore">
+          <div id="user" class="user">Player</div>
+          <div id="userscore" class="userscore">0</div>
+      </div>
+      <div class="space"></div>
+      <div class="Computer-score">
+        <div id="comp" class="comp">Computer</div>
+        <div id="compscore" class="compscore">0</div>
+    </div>
+  </div>
+  <p>Do you think you can beat a computer?</p>
+ 
+<div class="contents">
+  <div class="hands">
+    <div><img class="handpic2" src="https://www.nicepng.com/png/detail/6-61708_rock-rock-paper-scissors-clipart.png" alt=""></div>
+    <div><img class="handpics" src="https://www.nicepng.com/png/detail/6-61708_rock-rock-paper-scissors-clipart.png" alt=""></div>
+  </div>
+  <div class="choices">
+    <div><button onclick="Rock()" type="string" id="Rock" value="Rock">Rock</button></div>
+    <div><button onclick="Paper()" type="string" id="Paper" value="Paper">Paper</button></div>
+    <div><button onclick="Scissor()" type="string" id="Scissor" value="Scissor">Scissors</button></div>
+  </div>
+  <div><form id="Answer">Answer</form></div>
+</div>
+  <script type="text/javascript" src="game.js"></script>
+</body>
+</html>
