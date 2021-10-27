@@ -128,3 +128,11 @@ button{
     position:relative;
     transition: all 0.3 ease;
 }
+.green-glow{
+    border: 4px solid green;
+    box-shadow: 0 0 10px greenyellow;
+}
+
+.red-glow{
+    border:4px solid red;
+}
