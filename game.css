@@ -3,11 +3,11 @@ h1{
     text-align:center;
     font-size:60px;
     color:black;
-    padding:20px;
+
 }
 p{
     text-align:center;
-    padding:20px;
+    padding:0px;
     color:darkslategrey; 
     font-style:italic; 
 }
@@ -19,7 +19,7 @@ p{
 .Playerscore{
     display:flex;
     flex-flow:column;
-    padding:70px;    
+    padding:30px;    
 }
 .userscore{
     font-size:20px;
@@ -27,7 +27,7 @@ p{
 }
 
 .user{
-    padding:10px; 
+    padding:20px; 
     font-family:'Roboto';
     font-size:30px;
     font-weight:900;  
@@ -41,7 +41,7 @@ p{
 .Computer-score{
     display:flex;
     flex-flow:column;
-    padding:70px;    
+    padding:30px;    
 }
 .compscore{
     font-size:20px;
@@ -57,9 +57,20 @@ p{
 .space{
     display:flex;
     width:70%;
+    align-items:center;
+    justify-content:center;
+ 
 }
+#message{
+    text-align: center;
+    font-size:30px;
+    color: green;
+
+}
+
 .scoreboard{
     display:flex;
+    flex-flow: row;
     justify-content:center;
 }
 body{
@@ -89,7 +100,7 @@ body{
     height:45%;
 }
 form{
-    padding:30px;
+    padding:0px;
     font-size:50px;
     text-align:center;
     font-weight: 800;
