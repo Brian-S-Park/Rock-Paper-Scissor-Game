@@ -13,7 +13,8 @@ const compscore_div=document.getElementById("compscore");
 const userscore_div=document.getElementById("userscore");
 const message_div=document.getElementById("message");
 const reset_div=document.getElementById("reset");
-
+const playerHand = document.getElementById("handpic2");
+const compHand = document.getElementById("handpics");
 
 function Rock(){
     ans=Rock_div.value;
@@ -39,43 +40,55 @@ function compare(){
         ans="null";
     }
     if(ans=="Rock"){
+        playerHand.src = '/img/Rock.png';
         if(compAns=="Paper"){
+            compHand.src = '/img/Paper.png';
             Answer_div.innerHTML="Player Lost!";
             lose();
         }
         if(compAns=="Scissor"){
+            compHand.src = '/img/Scissor.png';
             Answer_div.innerHTML="Player Won!";
             win();
         }
         if(compAns=="Rock"){
+            compHand.src = '/img/Rock.png';
             Answer_div.innerHTML="Draw!";
             draw();
         }
     }
     if(ans=="Paper"){
+        playerHand.src = '/img/Paper.png';
         if(compAns=="Paper"){
+            compHand.src = '/img/Paper.png';
             Answer_div.innerHTML="Draw!";
             draw();
         }
         if(compAns=="Scissor"){
+            compHand.src = '/img/Scissor.png';
             Answer_div.innerHTML="Player Lost!";
             lose();
         }
         if(compAns=="Rock"){
+            compHand.src = '/img/Rock.png';
             Answer_div.innerHTML="Player Won!";
             win();
         }
     }
     if(ans=="Scissor"){
+        playerHand.src = '/img/Scissor.png';
         if(compAns=="Paper"){
+            compHand.src = '/img/Paper.png';
             Answer_div.innerHTML="Player Won!";
             win();
         }
         if(compAns=="Scissor"){
+            compHand.src = '/img/Scissor.png';
             Answer_div.innerHTML="Draw!";
             draw();
         }
         if(compAns=="Rock"){
+            compHand.src = '/img/Rock.png';
             Answer_div.innerHTML="Player Lost!";
             lose();
         }    
@@ -95,16 +108,17 @@ function compchoice(){
     } 
     return compAns;
 }
-function updateimg(){
-    handpic.src=""
-}
+
+
 Rock_div.addEventListener('click', function() {
     console.log("hey you clicked me!");
+    updateimg();
 
 })
 
 Paper_div.addEventListener('click', function() {
     console.log("hey you clicked me!");
+    updateimg();
 })
 
 Scissor_div.addEventListener('click', function() {
