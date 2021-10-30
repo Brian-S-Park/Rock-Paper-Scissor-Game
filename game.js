@@ -119,6 +119,7 @@ function win(){
     if(user_score >= 5){
             Answer_div.innerHTML = "Play Again?";
             message_div.innerHTML = "You Won the Game!";
+            message_div.style.color="green";
             user_score=empty1;
             comp_score=empty2;
             userscore_div.innerHTML=empty1;
@@ -139,6 +140,7 @@ function lose(){
     if(comp_score >= 5){
             Answer_div.innerHTML = "Play Again?";
             message_div.innerHTML = "You Lost the Game!";
+            message_div.style.color="red";
             user_score=empty1;
             comp_score=empty2;
             userscore_div.innerHTML=empty1;

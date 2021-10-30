@@ -64,10 +64,8 @@ p{
 #message{
     text-align: center;
     font-size:30px;
-    color: green;
-
+    font-family:'Roboto';
 }
-
 .scoreboard{
     display:flex;
     flex-flow: row;
