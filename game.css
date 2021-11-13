@@ -6,7 +6,6 @@ h1{
 }
 p{
     text-align:center;
-    padding:20px;
     color:black; 
     font-weight:900;
     font-family:cursive; 
@@ -25,18 +24,16 @@ p2{
 .Playerscore{
     display:flex;
     flex-flow:column;
-    padding:10px;
-    font-family:cursive;    
+    padding:10px; 
+    align-items:center;   
 }
 .userscore{
     font-size:20px;
     align-items:center;
-    font-family:cursive;
 }
 
 .user{
     padding:20px; 
-    font-family:cursive;
     font-size:30px;
     font-weight:900;  
 }
@@ -51,7 +48,7 @@ p2{
     display:flex;
     flex-flow:column;
     padding:10px;
-    font-family:cursive;    
+    align-items:center;
 }
 .compscore{
     font-size:20px;
@@ -61,7 +58,6 @@ p2{
 
 .comp{
     padding:10px; 
-    font-family:'Roboto';
     font-size:30px;
     font-weight:900;  
 }
@@ -70,11 +66,11 @@ p2{
     width:50%;
     align-items:center;
     justify-content:center;
- 
 }
 #message{
     text-align: center;
-    font-size:50px;
+    font-size:40px;
+    font-family:cursive;
 }
 .scoreboard{
     display:flex;
@@ -82,16 +78,19 @@ p2{
     justify-content:center;
 }
 body{
+    height: 90vh;
     background-color:grey;
 }
 .hands{
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:30px;
-    width:80%;
-    height:300px;
+    padding:40px;
+    width:70%;
+    height: 405px;
     background-color:whitesmoke;
+    border-radius:50px;
+    border: 4px solid darkgrey;
 }
 .hands > div{
     display:flex;
@@ -115,14 +114,14 @@ body{
     flex-flow:row;
     position:fixed;
     bottom:0;
-    left:0;
+    left:2;
     align-items:center;
     justify-content:center;
     padding:10px;
+    font-size:12px;
 }
 
 form{
-    padding:0px;
     font-size:50px;
     text-align:center;
     font-weight: 800;
@@ -149,31 +148,25 @@ form{
     cursor:pointer;
     background:lightgray;
     border-radius: 30px;
+    border: 4px solid darkgrey;
 }
 button{
     padding:10px;
     width:100px;
     border-radius:50px;
     text-align:center;
-    background-color:whitesmoke;
-    border-color:grey;
-    color:grey;
-    font-weight:800;
+    background-color:orange;
+    border-color:orange;
+    color:white;
+    font-family:cursive;
+    font-weight:900;
     cursor:pointer;
     position:relative;
     transition: all 0.3 ease;
 }
 button:hover{
     cursor:pointer;
-    background:orange;
-}
-.green-glow{
-    border: 4px solid green;
-    box-shadow: 0 0 10px greenyellow;
-}
-
-.red-glow{
-    border:4px solid red;
+    background:palegoldenrod;
 }
 
 @keyframes shakePlayer{

@@ -1,4 +1,5 @@
-//11-9 remember to make the white box bigger for full screen and center logo and name at bottom
+//TO DO: Organize and clean up code and insert avatars for the Player and Computer that are responsive. Maybe add some music
+//also want to add an avatar select page
 
 let ans;
 let compAns;
@@ -21,7 +22,6 @@ const compHand=document.getElementById("handpics");
 
 
 function Rock(){
-    //Makes sure that button is not clicked multiple times
     click++;
     if(click===1){
         ans=Rock_div.value;
@@ -53,6 +53,7 @@ function compare(){
         Answer_div.innerHTML="Play Again?";
         ans="null";
     }
+    message_div.innerHTML="";
     animation();
     //compares all the choices
     if(ans==="Rock"){
@@ -132,8 +133,8 @@ function compchoice(){
 
 function win(){
     user_score++;
-    Answer_div.style.color="green";
-    Answer_div.innerHTML="Player Won!";
+    message_div.style.color="green";
+    message_div.innerHTML="Player Won!";
     if(user_score===5 || comp_score===5){
         empty1=user_score;
         empty2=comp_score;
@@ -154,8 +155,8 @@ function win(){
 
 function lose(){
     comp_score++;
-    Answer_div.style.color="red";
-    Answer_div.innerHTML="Player Lost!";
+    message_div.style.color="crimson";
+    message_div.innerHTML="Player Lost!";
     if(user_score===5 || comp_score===5){
         empty1=user_score;
         empty2=comp_score;
@@ -175,8 +176,8 @@ function lose(){
 }
 
 function draw(){
-    Answer_div.style.color="black";
-    Answer_div.innerHTML="Draw!";
+    message_div.style.color="blue";
+    message_div.innerHTML="Draw!";
     if(user_score===5 || comp_score===5){
         Answer_div.innerHTML = "Play Again?";
     }
@@ -195,7 +196,6 @@ function Reset(){
     compHand.src = '/img/Rock.png';
     playerHand.style.animation = "reset";
     compHand.style.animation = "reset";
-    return;
 }
 
 function animation(){
