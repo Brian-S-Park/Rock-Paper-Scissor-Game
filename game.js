@@ -206,3 +206,4 @@ function animation(){
     playerHand.style.animation = "shakePlayer 2s ease";
     compHand.style.animation = "shakeComp 2s ease";
 }
+
