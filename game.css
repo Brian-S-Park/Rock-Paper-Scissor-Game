@@ -8,28 +8,28 @@ p{
     text-align:center;
     color:black; 
     font-weight:900;
-    font-family:cursive; 
+    font-family:'Comic Sans MS'; 
 }
 p2{
     text-align:center;
     padding:10px;
-    font-family:cursive;
+    font-family:'Comic Sans MS';
     font-weight:900;
 }
 .Playerscore > div{
     display:flex;
     justify-content:center;
-    font-family:cursive;
+    font-family:'Comic Sans MS';
 }
 .Playerscore{
     display:flex;
     flex-flow:column;
     padding:10px; 
-    align-items:center;   
+    align-items:'Comic Sans MS';   
 }
 .userscore{
     font-size:20px;
-    align-items:center;
+    align-items:'Comic Sans MS';
 }
 
 .user{
@@ -41,19 +41,19 @@ p2{
 .Computer-score > div{
     display:flex;
     justify-content:center;
-    font-family:cursive;
+    font-family:'Comic Sans MS';
 }
 
 .Computer-score{
     display:flex;
     flex-flow:column;
     padding:10px;
-    align-items:center;
+    align-items:'Comic Sans MS';
 }
 .compscore{
     font-size:20px;
     align-items:center;
-    font-family:cursive;
+    font-family:'Comic Sans MS';
 }
 
 .comp{
@@ -70,7 +70,7 @@ p2{
 #message{
     text-align: center;
     font-size:40px;
-    font-family:cursive;
+    font-family:'Comic Sans MS';
 }
 .scoreboard{
     display:flex;
@@ -125,7 +125,7 @@ form{
     font-size:50px;
     text-align:center;
     font-weight: 800;
-    font-family:arial;
+    font-family:'Comic Sans MS';
 }
 
 .contents{
@@ -158,7 +158,7 @@ button{
     background-color:orange;
     border-color:orange;
     color:white;
-    font-family:cursive;
+    font-family:'Comic Sans MS';
     font-weight:900;
     cursor:pointer;
     position:relative;

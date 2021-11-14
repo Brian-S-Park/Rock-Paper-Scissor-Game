@@ -1,1 +1,4 @@
-Rock, Paper, Scissor game project from theodinproject.com.
+						Rock, Paper, Scissors Game!
+
+A classic game of rock, paper, and scissors made in html, css and javascript. First to reach five wins the game. This
+project came from theodinproject.com. Thanks for checking out my project!
