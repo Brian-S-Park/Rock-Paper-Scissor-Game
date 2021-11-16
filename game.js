@@ -58,17 +58,17 @@ function compare(){
     //compares all the choices
     if(ans==="Rock"){
         setTimeout(() =>{
-            playerHand.src = '/img/Rock.png';
+            playerHand.src = './img/Rock.png';
             if(compAns==="Paper"){
-                compHand.src = '/img/Paper.png';
+                compHand.src = './img/Paper.png';
                 lose();
             }
             if(compAns==="Scissor"){
-                compHand.src = '/img/Scissor.png';
+                compHand.src = './img/Scissor.png';
                 win();
             }
             if(compAns==="Rock"){
-                compHand.src = '/img/Rock.png';
+                compHand.src = './img/Rock.png';
                 draw();
             }
             playerHand.style.animation = "reset";
@@ -77,18 +77,18 @@ function compare(){
     }
     if(ans==="Paper"){
         setTimeout(() =>{
-                playerHand.src = '/img/Paper.png';
+                playerHand.src = './img/Paper.png';
 
             if(compAns==="Paper"){
-                compHand.src = '/img/Paper.png';
+                compHand.src = './img/Paper.png';
                 draw();
             }
             if(compAns==="Scissor"){
-                compHand.src = '/img/Scissor.png';
+                compHand.src = './img/Scissor.png';
                 lose();
             }
             if(compAns==="Rock"){
-                compHand.src = '/img/Rock.png';
+                compHand.src = './img/Rock.png';
                 win();
             }
             playerHand.style.animation = "reset";
@@ -97,17 +97,17 @@ function compare(){
     }
     if(ans==="Scissor"){
         setTimeout(() =>{
-                playerHand.src = '/img/Scissor.png';
+                playerHand.src = './img/Scissor.png';
             if(compAns==="Paper"){
-                compHand.src = '/img/Paper.png';
+                compHand.src = './img/Paper.png';
                 win();
             }
             if(compAns==="Scissor"){
-                compHand.src = '/img/Scissor.png';
+                compHand.src = './img/Scissor.png';
                 draw();
             }
             if(compAns==="Rock"){
-                compHand.src = '/img/Rock.png';
+                compHand.src = './img/Rock.png';
                 lose();
             }
             playerHand.style.animation = "reset";
@@ -192,16 +192,16 @@ function Reset(){
     compscore_div.innerHTML = comp_score;
     Answer_div.innerHTML = "";
     message_div.innerHTML = "";
-    playerHand.src = '/img/Rock.png';
-    compHand.src = '/img/Rock.png';
+    playerHand.src = './img/Rock.png';
+    compHand.src = './img/Rock.png';
     playerHand.style.animation = "reset";
     compHand.style.animation = "reset";
 }
 
 function animation(){
     //animates the hands and outputs the answer
-    playerHand.src='/img/Rock.png';
-    compHand.src='/img/Rock.png';
+    playerHand.src='./img/Rock.png';
+    compHand.src='./img/Rock.png';
     Answer_div.innerHTML = "";
     playerHand.style.animation = "shakePlayer 2s ease";
     compHand.style.animation = "shakeComp 2s ease";
