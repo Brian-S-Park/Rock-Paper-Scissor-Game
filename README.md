@@ -4,4 +4,6 @@ A classic game of rock paper scissors made in html, css, and js. First player to
 
 - https://brian-s-park.github.io/Rock-Paper-Scissor-Game/
 
+![alt text](https://github.com/Brian-S-Park/Rock-Paper-Scissor-Game/blob/main/img/RockPaperScissorsDemo.png)
+
 
